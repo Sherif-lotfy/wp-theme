@@ -1,0 +1,21 @@
+:root {
+    --color1 : #06141b;
+    --color2 : #11212d;
+    --color3 : #253745;
+    --color4 : #4a5c6a;
+    --color5 : #9ba8ab;
+    --color6 : #ccd0cf;
+
+}
+
+.navbar {
+    background:var(--color2) ;
+    width:100%;
+}
+.navbar-div {
+    display: flex;
+    justify-content: space-between;
+}
+#navbarSupportedContent {
+    flex-grow: 0;
+}
