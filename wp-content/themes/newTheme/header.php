@@ -10,9 +10,11 @@
 
 
     <header>
-        <?php wp_nav_menu( array('header-menu' => 'header-menu') );?>
+        <div class="header-nav-div">
+            <?php  wp_nav_menu( array('header-menu' => 'header-menu') ); ?>
+        </div>
     </header>
-
+    
     <!-- <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid navbar-div">
             <a class="navbar-brand" href="#">Navbar</a>
